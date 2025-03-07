@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#text-input{
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 35px;
+    border: 3px solid rgb(73, 73, 73);
+}
+button{
+    font-size: 20px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 35px;
+}
+
+button {
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+#send-btn{
+    background: rgba(80, 80, 80, 0.726);
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 35px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+    margin-top: 15px;
+    background: rgba(80, 80, 80, 0.726);
+    border-radius: 30px;
+    width: 415px;
+    height: 200px;
+}
+
+.counter button {
+    font-size: 74px;
+    width: 140px;
+    height: 140px;
+    color: white;
+    background-color: transparent;
+
+}
+.counter span{
+    font-size: 100px;
+    color: red;
+}
+label{
+    font-size: 45px;
+}
+.first{
+    width: 800px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.two-div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+select{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: 5px solid white;
+    height: 50px;
+    border-radius: 20px;
+}
+::placeholder{
+    color: black;
+}
